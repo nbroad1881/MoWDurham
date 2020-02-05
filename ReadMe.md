@@ -1,7 +1,7 @@
 # Information about All Projects
 
-## [Project Shortlist](project-shortlist)
-## [Who is doing what?](Who is doing what?)
+## [Project Shortlist](#Project-Shortlist)
+## [Who is doing what?](#Who-is-Doing-What)
   
 ## Project Shortlist
 1. Maximize enrollment of clients given budgetary constraints. Calculate and report how many clients can be serviced at any given time based on available funding sources.
@@ -18,7 +18,7 @@
    * Likely Relevant Skillsets: Data gathering, data analysis, data visualization, content design & presentation (edited)
    
 
-## Who is doing what?
+## Who is doing what
 1.  Daily Checklist
     *  Richard D, Sakshi, Chris D
 2.  Integrating application webform with database
