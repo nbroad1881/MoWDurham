@@ -1,7 +1,16 @@
 # Information about All Projects
 
-## [Project Shortlist](#Project-Shortlist)
-## [Who is doing what?](#Who-is-Doing-What)
+[Project Shortlist](#Project-Shortlist)  
+[Who is doing what?](#Who-is-Doing-What)  
+[Files from Ian](#Files-sent-by-Ian)  
+[Link to Drive](#Files-stored-on-drive)  
+[Excel](#Excel)  
+[Database Information](#Database-Information)  
+[Volunteer Application Format](#Volunteer-Application-Format)  
+[Data Visualization](#Data-Visualization)  
+[Route planning options](#Route-planning-options)  
+[Initial project ideas](#Initial-project-ideas)  
+[Emails](#Emails)  
   
 ## Project Shortlist
 1. Maximize enrollment of clients given budgetary constraints. Calculate and report how many clients can be serviced at any given time based on available funding sources.
@@ -40,7 +49,7 @@
 * ServTracker Data Import Specification.xlsx
   * Input format for client database
 
-## All files stored on drive
+## Files stored on drive
 [https://drive.google.com/drive/folders/12jTjEJxas3gD2ShNI5F-1UxEr2p5DbBp?usp=sharing](https://drive.google.com/drive/folders/12jTjEJxas3gD2ShNI5F-1UxEr2p5DbBp?usp=sharing)
 
 
@@ -165,6 +174,7 @@ Existing MoW infographics on drive
    * Route sheets generated each day for volunteers via their app / existing software. Directions come from Bing maps. It seems pretty dynamic, if volunteers need to cancel it sends the directions to the replacement volunteer.
    * Their current app allows smartphone users to sync the directions to their preferred directions app (e.g. Google maps, ways etc.)
    
+# Emails
    
 ## Ian's introduction
 
