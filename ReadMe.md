@@ -18,11 +18,11 @@
 
 ## Who is doing what?
 1.  Daily Checklist
-  *  Richard D, Sakshi, Chris D
+    *  Richard D, Sakshi, Chris D
 2.  Integrating application webform with database
-  * Ankur S	, Nick B 
-*   Data Visualization
-  * David B
+    * Ankur S	, Nick B 
+3.   Data Visualization
+    * David B
 
 ## Files sent by Ian
 * Template for Uploading Volunteer Applications to Scheduler.xls
@@ -53,14 +53,14 @@
 
 ## Database Information
 1. Client database
-  * Microsoft Access
-  * Not connected 
+    * Microsoft Access
+    * Not connected 
 2. Volunteer database
-  * [MOW Scheduler](http://support.mowscheduler.com/integration/volunteerapplication/)
-  * [REST API integration](http://support.mowscheduler.com/integration/rest)
-  * [Field reference](http://support.mowscheduler.com/integration/volunteerapplication/fieldreference) 
+    * [MOW Scheduler](http://support.mowscheduler.com/integration/volunteerapplication/)
+    * [REST API integration](http://support.mowscheduler.com/integration/rest)
+    * [Field reference](http://support.mowscheduler.com/integration/volunteerapplication/fieldreference) 
 3. Web server 
-  * OneEach Technology
+    * OneEach Technology
 
 
 ## Volunteer Application Format
@@ -177,19 +177,19 @@ MOW Durham Background
 * Delivery drivers are volunteers (not true of all MOW chapters). Due to this, they have gotten feedback from many clients that they feel drivers are very friendly and dedicated etc.
 * Client database is on a separate server from the 'regular' server (not quite clear what the infrastructure layout is just yet). The main server I believe hosts their volunteer database.
 
-##Email from Ian to Richard (July 2019)
+##  Email from Ian to Richard (July 2019)
 1.    Assuming a client/volunteer application has been approved, do you tend to enter the information for that approved client/volunteer via a bulk-upload or by manually entering their data into a web form (e.g. with various fields etc.)?
 a.    Assuming the answer is manual field entry, is there a bulk upload alternative available (for client / volunteer databases)?
 2.    Do you tend to enter/upload data for multiple approved applicants at once (if bulk upload) / back-to-back (if manual entry)? Or do you tend to only enter one approved applicant in a single sitting as soon as they are approved? For example, if 7 applicants are approved each day of the week, do you enter each one each day or wait until the end of the week to do all 7?
 
 
-##Email from Richard to Ian (July 2019)
-To your questions- 
+##  Email from Richard to Ian (July 2019)
+To your questions:
 
 1.  We usually enter these manually. However, I believe bulk upload is possible for both databases. For our volunteer database, we can import .xls or .xlsx files. I've sent our client database folks an email to see exactly how we could upload to this system, but I believe it can be done.  
-2.     For clients, we enter them one at a time, as soon as we enroll the client.  For volunteers, it varies a bit. Sometimes it might be a week's worth at once, but we definitely do one at a time in this system as well. "
+2.     For clients, we enter them one at a time, as soon as we enroll the client.  For volunteers, it varies a bit. Sometimes it might be a week's worth at once, but we definitely do one at a time in this system as well.
 
-## Email from Ian to Richard (July 2019)
+##  Email from Ian to Richard (July 2019)
 > I had the chance to email with someone from OneEach Technologies, who created our company website. This is where our client and volunteer applications come through, and it has the ability to export excel reports. I have attached de-identified examples of these two reports. The person at OneEach told me the following when I asked about what type of database they use: “Well, our system is a proprietary config on a Drupal farm so I do not have a lot of the technical backend information for you.  **All that you would need to worry about on your end is adding content to the site. So we would manage any customizations on the site here and do not really allow any backend access.” That being said, as we discussed at the meeting, we have the ability to change forms on the site, and export reports from completed forms. We also have the ability to automate emails that include application information whenever an application is submitted. I'm curious what the response from OneEach means to you.**
 > 
 >As discussed at the meeting, our **client database is called ServTracker, and it is a product of Accessible Solutions**. It is an access database, and it lives on a different server than our main server. I've attached an export of de-identified service unit information which could be used for project #3. I have also attached a report that could be used for project #1.
@@ -199,7 +199,7 @@ To your questions-
 >Let me know if you have any questions about any of this info or attachments, or if additional info is needed. I'll also talk with our senior staff on Thursday about their thoughts on these four projects.
 >Thanks again for your time and work on this!
 
-##Call between Richard and Ian (August 2019)
+## Call between Richard and Ian (August 2019)
 1. Ian does not think our approach for transferring client application data will be tractable, will probably need to shelf this without direct DB access.
 2. Project for transferring volunteer application data will also not work under the excel workbook approach, however the volunteer database has apparently released API functionality for POSTing data to their database. We should discuss to see how and if we can leverage this. Link to that documentation:
     [http://support.mowscheduler.com/integration/volunteerapplication/](http://support.mowscheduler.com/integration/volunteerapplication/)
