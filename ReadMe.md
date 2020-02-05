@@ -21,7 +21,7 @@
     *  Richard D, Sakshi, Chris D
 2.  Integrating application webform with database
     * Ankur S	, Nick B 
-3.   Data Visualization
+3.  Data Visualization
     * David B
 
 ## Files sent by Ian
@@ -114,6 +114,8 @@ https://www.mowdurham.org/node/19/submission/1333
 
 
 ## Data Visualization
+Existing MoW infographics on drive
+
 1. [https://www.census.gov/data/developers/data-sets/acs-1year.html](https://www.census.gov/data/developers/data-sets/acs-1year.html)
 2. [Census for Durham County](https://factfinder.census.gov/bkmk/cf/1.0/en/county/Durham%20County,%20North%20Carolina/ALL)
 
@@ -162,7 +164,7 @@ https://www.mowdurham.org/node/19/submission/1333
    * Their current app allows smartphone users to sync the directions to their preferred directions app (e.g. Google maps, ways etc.)
    
    
-   ## Ian's introduction
+## Ian's introduction
 
 * Minimal experience with coding
 * Deals primarily on the client side of things (ensuring they are enrolled, operations running smoothly)
@@ -178,16 +180,16 @@ MOW Durham Background
 * Client database is on a separate server from the 'regular' server (not quite clear what the infrastructure layout is just yet). The main server I believe hosts their volunteer database.
 
 ##  Email from Ian to Richard (July 2019)
-1.    Assuming a client/volunteer application has been approved, do you tend to enter the information for that approved client/volunteer via a bulk-upload or by manually entering their data into a web form (e.g. with various fields etc.)?
-a.    Assuming the answer is manual field entry, is there a bulk upload alternative available (for client / volunteer databases)?
-2.    Do you tend to enter/upload data for multiple approved applicants at once (if bulk upload) / back-to-back (if manual entry)? Or do you tend to only enter one approved applicant in a single sitting as soon as they are approved? For example, if 7 applicants are approved each day of the week, do you enter each one each day or wait until the end of the week to do all 7?
+> 1.    Assuming a client/volunteer application has been approved, do you tend to enter the information for that approved client/volunteer via a bulk-upload or by manually entering their data into a web form (e.g. with various fields etc.)?
+> a.    Assuming the answer is manual field entry, is there a bulk upload alternative available (for client / volunteer databases)?
+> 2.    Do you tend to enter/upload data for multiple approved applicants at once (if bulk upload) / back-to-back (if manual entry)? Or do you tend to only enter one approved applicant in a single sitting as soon as they are approved? For example, if 7 applicants are approved each day of the week, do you enter each one each day or wait until the end of the week to do all 7?
 
 
 ##  Email from Richard to Ian (July 2019)
-To your questions:
-
-1.  We usually enter these manually. However, I believe bulk upload is possible for both databases. For our volunteer database, we can import .xls or .xlsx files. I've sent our client database folks an email to see exactly how we could upload to this system, but I believe it can be done.  
-2.     For clients, we enter them one at a time, as soon as we enroll the client.  For volunteers, it varies a bit. Sometimes it might be a week's worth at once, but we definitely do one at a time in this system as well.
+> To your questions:
+> 
+> 1.  We usually enter these manually. However, I believe bulk upload is possible for both databases. For our volunteer database, we can import .xls or .xlsx files. I've sent our client database folks an email to see exactly how we could upload to this system, but I believe it can be done.  
+> 2.  For clients, we enter them one at a time, as soon as we enroll the client.  For volunteers, it varies a bit. Sometimes it might be a week's worth at once, but we definitely do one at a time in this system as well.
 
 ##  Email from Ian to Richard (July 2019)
 > I had the chance to email with someone from OneEach Technologies, who created our company website. This is where our client and volunteer applications come through, and it has the ability to export excel reports. I have attached de-identified examples of these two reports. The person at OneEach told me the following when I asked about what type of database they use: “Well, our system is a proprietary config on a Drupal farm so I do not have a lot of the technical backend information for you.  **All that you would need to worry about on your end is adding content to the site. So we would manage any customizations on the site here and do not really allow any backend access.” That being said, as we discussed at the meeting, we have the ability to change forms on the site, and export reports from completed forms. We also have the ability to automate emails that include application information whenever an application is submitted. I'm curious what the response from OneEach means to you.**
