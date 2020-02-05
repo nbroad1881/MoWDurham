@@ -1,5 +1,7 @@
 # Information about All Projects
 
+## [Project Shortlist](project-shortlist)
+## [Who is doing what?](Who is doing what?)
   
 ## Project Shortlist
 1. Maximize enrollment of clients given budgetary constraints. Calculate and report how many clients can be serviced at any given time based on available funding sources.
