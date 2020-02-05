@@ -31,7 +31,7 @@
 1.  Daily Checklist
     *  Richard D, Sakshi, Chris D
 2.  Integrating application webform with database
-    * Ankur S	, Nick B 
+    * Ankur S	, Nicholas B 
 3.  Data Visualization
     * David B
 
