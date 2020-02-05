@@ -1,3 +1,19 @@
+/*
+The following runs on Google Apps Script.
+
+It reads through the user's gmail by first finding:
+
+all of the emails with a certain label
+(The label must be automaticallu applied to the email by a filter.)
+
+and then it finds recent and unread emails.
+It parses the body of these emails and pulls the application information.
+
+It packages the information into a payload and makes a post request to the database.
+
+*/
+
+
 var sampleBody = '==INFORMATION ABOUT YOU==\n\
 First name: Timmy\n\
 Last name: Turner\n\
@@ -59,6 +75,12 @@ function searchForNewEmails(){
         if (m.getFrom() == user_email){
           continue;
         }
+        //If it has already been read, skip
+        if (m.isUnread() == false){
+          continue;
+        }
+        
+        m.markRead()
         
         //May want to check only messages that are received within the last hour or two.
         var message_date = m.getDate();
